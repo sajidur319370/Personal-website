@@ -1,0 +1,290 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    /* ======================header-part starts here========================= */
+    
+    header {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    
+    .display-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .half-width {
+        width: 50%;
+    }
+    
+    .intro-image {
+        text-align: right;
+        padding-top: 45px;
+    }
+    
+    .intro-image img {
+        width: 70%;
+    }
+    
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        color: #0e0d0d;
+    }
+    
+    .intro {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    
+    .mission-color {
+        color: rgba(4, 0, 255, 0.541);
+    }
+    
+    .header-button {
+        padding: 15px 40px;
+        background: rgba(4, 0, 255, 0.541);
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #ffff;
+        border-radius: 5px;
+    }
+    /* ======================header-part ends here========================= */
+    /* ======================mission-part starts here========================= */
+    
+    #mission-part {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    
+    .mission-intro {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        padding-bottom: 50px;
+    }
+    
+    .mission-item {
+        width: 330px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    
+    .mission-image {
+        width: 50%;
+    }
+    
+    .mission-image img {
+        width: 100%;
+    }
+    
+    .mission-item h3 {
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Roboto Slab', serif;
+    }
+    
+    .mission-item p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(36, 33, 33, 0.8);
+    }
+    
+    .color-blue {
+        background-color: rgba(169, 164, 240, 0.747);
+    }
+    
+    .color-orange {
+        background-color: rgba(236, 172, 152, 0.842);
+    }
+    
+    .color-cyan {
+        background-color: rgba(167, 234, 236, 0.671);
+    }
+    /* ======================mission-part ends here========================= */
+    /* ======================development-part ends here========================= */
+    
+    #development-part {
+        background-image: url(../images/shapes/shape-1.png);
+        background-repeat: no-repeat;
+        background-size: 220px 220px;
+        background-position: left center;
+    }
+    
+    .dev-main {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    
+    .dev-image {
+        width: 50%;
+        text-align: left;
+        padding-top: 45px;
+    }
+    
+    .dev-image img {
+        width: 70%;
+    }
+    
+    .dev-details {
+        padding-left: 20px;
+        margin-left: 50px;
+    }
+    
+    .dev-details h2 {
+        font-size: 36px;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        color: #141313;
+        width: 320px;
+    }
+    
+    .dev-details {
+        width: 700px;
+    }
+    
+    .dev-details p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(36, 33, 33, 0.8);
+        margin-bottom: 40px;
+    }
+    /* ======================development-part ends here========================= */
+    /*  ================community-part starts here=================  */
+    
+    #communication-part {
+        background-image: url(../images/shapes/shape-1.png);
+        background-repeat: no-repeat;
+        background-size: 220px 220px;
+        background-position: right bottom;
+    }
+    
+    .common-main {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    
+    .common-details {
+        width: 700px;
+    }
+    
+    .common-details h2 {
+        font-size: 36px;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        color: #141313;
+        width: 320px;
+    }
+    
+    .common-details p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(36, 33, 33, 0.8);
+        margin-bottom: 40px;
+    }
+    
+    .common-image {
+        width: 50%;
+        text-align: right;
+        padding-top: 40px;
+    }
+    
+    .common-image img {
+        width: 70%;
+    }
+    /* ================community-part ends here==================== */
+    /* ================Application-part starts 
+here==================== */
+    
+    #application-part {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .app-intro {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Roboto Slab', serif;
+        color: #141313;
+        text-align: center;
+    }
+    
+    .app-image {
+        width: 60%;
+        text-align: center;
+    }
+    
+    .app-image img {
+        width: 70%;
+        background-image: url(../images/shapes/shape-3.png);
+        background-repeat: no-repeat;
+        background-size: 150px 150px;
+        background-position: left top;
+    }
+    
+    .app-details {
+        width: 700px;
+        padding-top: 50px;
+    }
+    
+    .app-details h2 {
+        width: 320px;
+        text-align: left;
+    }
+    
+    .app-details p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(36, 33, 33, 0.8);
+        margin-bottom: 40px;
+    }
+    /* ================Application-part ends here==================== */
+    /* ================footer-part starts here==================== */
+    
+    footer {
+        background-color: rgba(32, 30, 30, 0.9);
+    }
+    
+    .footer-line {
+        color: #ffff;
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    
+    .footer-line span {
+        color: rgba(236, 172, 152, 0.842);
+    }
+    
+    .copy-right {
+        color: #ffff;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    /* ================footer-part ends here==================== */
